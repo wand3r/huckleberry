@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -9,4 +9,37 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+:root {
+  /* SPACING */
+  --spacing-1: 8px;
+  --spacing-2: 16px;
+  --spacing-3: 24px;
+  --spacing-4: 32px;
+  --spacing-6: 48px;
+  --spacing-8: 64px;
+  --spacing-12: 96px;
+  --spacing-16: 128px;
+
+  /* FONT */
+  --font-size-base: 1rem;
+  --font-size-large: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-xxl: 2rem;
+
+  /*  COLORS */
+  --color-green: hsl(160deg, 100%, 30%);
+  --color-gold-light: hsl(45deg, 100%, 50%);
+  --color-gold-dark: hsl(45deg, 100%, 40%);
+  --color-black: hsl(0deg, 0%, 0%);
+  --color-grey-very-dark: hsl(0deg, 0%, 10%);
+  --color-gray-dark: hsl(0deg, 0%, 30%);
+  --color-gray-medium: hsl(0deg, 0%, 40%);
+  --color-gray-light: hsl(0deg, 0%, 60%);
+  --color-white: hsl(0deg, 0%, 100%);
+
+  --color-primary: var(--color-green);
+  --color-secondary-light: var(--color-gold-light);
+  --color-secondary-dark: var(--color-gold-dark);
+}
+
+
